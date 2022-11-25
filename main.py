@@ -28,3 +28,11 @@ else  :
         print(y)
         print(x)
 print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+
+automobili= ["berta","uga","piera","silvia","rodolfa"]
+moto= ["giovanni","umberto","ignacio","rodrigo"]
+motomobili= automobili + moto
+motomobili.sort()
+print(motomobili)
+print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+
