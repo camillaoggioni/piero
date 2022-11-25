@@ -47,3 +47,13 @@ for x in numeri:
 numeri=dispari
 print(numeri)
 print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
+
+numeri=[]
+valore=0
+for i in range(50):
+    numeri.append(random.randint(0,1000))
+for x in numeri:
+    if x>50 or x<10:
+        print(x)
+valore= valore+1
+print(valore)
