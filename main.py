@@ -36,3 +36,14 @@ motomobili.sort()
 print(motomobili)
 print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
 
+import random
+numeri=[]
+for i in range(50):
+    numeri.append(random.randint(0,1000))
+dispari=[]
+for x in numeri:
+    if x%2==1:
+        dispari.append(x)
+numeri=dispari
+print(numeri)
+print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø")
